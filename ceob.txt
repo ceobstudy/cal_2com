@@ -8,11 +8,15 @@
 		<h1>Calculadora de Carlos Ortiz Bao</h1>
 		Number:
 		<input type="text" id="n1">
-		<p>
+        	<p>
 			<button onclick="cube()"> x<sup>3<sup></button>
 		</p>
 		<script type="text/javascript">
 		   function square()
+			<button onclick="inverso()"> x<sup>3<sup></button>
+		</p>
+		<script type="text/javascript">
+		   function inverso()
 				var num = document.getElementById("n1");
 				num.value * num.value;
 			}
